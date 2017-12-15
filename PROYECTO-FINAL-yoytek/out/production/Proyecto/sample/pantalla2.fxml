@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllerpantalla2">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="919.0" prefWidth="1270.0">
+            <children>
+                <ImageView fitHeight="919.0" fitWidth="1270.0">
+                    <image>
+                        <Image url="@FONDO.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="160.0" fitWidth="259.0" layoutX="86.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@dell-inspiron-3567-notebook-original-imaetu5ch98vzge5.jpeg" />
+                    </image>
+                </ImageView>
+                <Label layoutX="80.0" layoutY="319.0" text="Dell Inspiron APU Dual Core A9 7th Gen" textAlignment="CENTER" textFill="#f2f2f2">
+                    <font>
+                        <Font name="Arial" size="15.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="197.0" fitWidth="270.0" layoutX="504.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@c05494947.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="573.0" layoutY="319.0" text="HP Pavilion Power" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="15.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="176.0" fitWidth="295.0" layoutX="892.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@c05398663.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="921.0" layoutY="319.0" text="HP Pavilion Desktop - 570" textFill="WHITE">
+                    <font>
+                        <Font name="Arial" size="15.0" />
+                    </font>
+                </Label>
+                <ButtonBar layoutX="165.0" layoutY="440.0" prefHeight="40.0" prefWidth="200.0" />
+                <Accordion layoutX="80.0" layoutY="345.0">
+                    <panes>
+                        <TitledPane text="Opcion 1">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="AMD APU Dual Core A9 7th Gen&#10;&#10;Dual Core, 2.4 GHz Clock Speed&#10;&#10;6 GB DDR4 RAM&#10;&#10;1 TB Hard Disk&#10;&#10;Integrated AMD Graphics&#10;&#10;15.6 inches, 1366 x 768 pixels Screen&#10;&#10;Windows 10 OS&#10;&#10;1 Year Warranty" />
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Opcion 2">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="AMD APU Dual Core A9 7th Gen&#10;&#10;Dual Core, 2.4 GHz Clock Speed&#10;&#10;16 GB DDR4 RAM&#10;&#10;1 TB SDD&#10;&#10;Nvidia GeForce 1080m&#10;&#10;15.6 inches, 1366 x 768 pixels Screen&#10;&#10;Windows 10 Pro OS&#10;&#10;2 Year Warranty" />
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+                <Accordion layoutX="534.0" layoutY="345.0">
+                    <panes>
+                        <TitledPane animated="false" text="Opcion 1">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Windows 10 Home 64&#10;Intel® Core™ i5-7300HQ (2.5 GHz, up to 3.5 GHz, 6 MB cache, 4 cores)&#10;NVIDIA® GeForce® GTX 1050 (2 GB GDDR5 dedicated)&#10;15.6&quot; diagonal FHD IPS anti-glare WLED-backlit (1920 x 1080)&#10;8 GB DDR4-2400 SDRAM (1 x 8 GB)&#10;1 TB 7200 rpm SATA&#10;B&amp;O PLAY, dual speakers, HP Audio Boost" />
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Opcion 2">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Intel® Core™ i5-7300HQ (2.5 GHz, up to 3.5 GHz, 6 MB cache, 4 cores)&#10;NVIDIA® GeForce® GTX 1050 Ti (4 GB GDDR5 dedicated)&#10;15.6&quot; diagonal FHD IPS WLED-backlit multitouch-enabled edge-to-edge glass (1920 x 1080)&#10;12 GB DDR4-2400 SDRAM (1 x 4 GB, 1 x 8 GB)&#10;1 TB 7200 rpm SATA; 128 GB PCIe® NVMe™ M.2 SSD&#10;Shadow black with ghost white&#10;B&amp;O PLAY, dual speakers, HP Audio Boost" />
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Opcion 3">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Windows 10 Pro 64&#10;Intel® Core™ i7-7700HQ (2.8 GHz, up to 3.8 GHz, 6 MB cache, 4 cores)&#10;NVIDIA® GeForce® GTX 1050 Ti (4 GB GDDR5 dedicated)&#10;15.6&quot; diagonal 4K IPS anti-glare WLED-backlit (3840 x 2160)&#10;16 GB DDR4-2400 SDRAM (2 x 8 GB)&#10;1 TB 7200 rpm SATA; 256 GB PCIe® NVMe™ M.2 SSD&#10;4-cell, 70 Wh Lithium-ion polymer Battery&#10;B&amp;O PLAY, dual speakers, HP Audio Boost&#10;HP Wide Vision FHD IR Camera with Dual array digital microphone (Acid Green)" />
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+                <Accordion layoutX="921.0" layoutY="345.0">
+                    <panes>
+                        <TitledPane animated="false" text="Opcion 1">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Windows 10 Home 64&#10;Intel® Core™ i5-7400 (3 GHz, up to 3.5 GHz with Intel® Turbo Boost Technology, 6 MB cache, 4 cores)&#10;Intel® HD Graphics 630&#10;12 GB DDR4-2400 SDRAM (1 x 4 GB, 1 x 8 GB)&#10;1 TB 7200 rpm SATA&#10;DVD-Writer&#10;&#10;2 USB 2.0; 3 USB 3.0; 1 USB 3.0 Type-C™; &#10;1 audio in; 1 audio out; 1 microphone in; &#10;1 headphone/microphone combo; 1 RJ-45&#10;&#10;1 HDMI; 1 VGA" />
+                            </content>
+                        </TitledPane>
+                        <TitledPane animated="false" text="Opcion 2">
+                            <content>
+                                <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" text="Windows 10 Pro 64&#10;Intel® Core™ i7-7400 (3 GHz, up to 3.5 GHz with Intel® Turbo Boost Technology, 6 MB cache, 8 cores)&#10;Nvidia GeForce GTX 960&#10;16 GB DDR4-2400 SDRAM (1 x 4 GB, 1 x 8 GB)&#10;2 TB 7200 rpm SATA&#10;DVD-Writer&#10;&#10;2 USB 2.0; 3 USB 3.0; 1 USB 3.0 Type-C™; &#10;1 audio in; 1 audio out; 1 microphone in; &#10;1 headphone/microphone combo; 1 RJ-45&#10;&#10;1 HDMI; 1 VGA" />
+                            </content>
+                        </TitledPane>
+                    </panes>
+                </Accordion>
+                <ImageView fx:id="compras" accessibleRole="BUTTON" fitHeight="83.0" fitWidth="117.0" layoutX="976.0" layoutY="420.0" onMouseClicked="#siguiente" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@if_Basket_2205960.png" />
+                    </image>
+                    <cursor>
+                        <Cursor fx:constant="CLOSED_HAND" />
+                    </cursor>
+                    <effect>
+                        <Blend />
+                    </effect>
+                </ImageView>
+                <ImageView fitHeight="136.0" fitWidth="114.0" layoutX="1123.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@c895a61e637f53ac91d5faf634c84794-cube-logo-geometric-polygonal-by-vexels.png" />
+                    </image>
+                </ImageView>
+            </children>
+        </Pane>
+    </children>
+</GridPane>

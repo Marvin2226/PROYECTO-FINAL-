@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="898.0" prefWidth="1203.0">
+         <children>
+            <ImageView fitHeight="905.0" fitWidth="1203.0" layoutY="-3.0">
+               <image>
+                  <Image url="@FONDO.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="399.0" layoutY="368.0" text="YOYTEK" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Anders" size="86.0" />
+               </font>
+            </Label>
+            <Label layoutX="441.0" layoutY="514.0" text="Bienvenido" textAlignment="CENTER" textFill="#c9e4bc">
+               <font>
+                  <Font size="58.0" />
+               </font>
+            </Label>
+            <Label layoutX="140.0" layoutY="679.0" text="Si desea realizar una compra haga click aqui">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="comprar" layoutX="606.0" layoutY="675.0" mnemonicParsing="false" onAction="#xxx" prefHeight="40.0" prefWidth="145.0" text="COMPRAR" />
+            <ImageView fitHeight="368.0" fitWidth="469.0" layoutX="399.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@LOGO.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="salir" fitHeight="71.0" fitWidth="92.0" layoutX="1086.0" layoutY="34.0" onMouseClicked="#salir" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@SALIR.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
